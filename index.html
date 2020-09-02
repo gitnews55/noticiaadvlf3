@@ -117,7 +117,7 @@
         const now = new Date();
 
         // Formata a data conforme dd/mm/aaaa hh:ii:ss
-        const dataHora = zeroFill(now.getUTCDate()) + '/' + zeroFill((now.getMonth() + 1)) + '/' + now.getFullYear() + ' ' + zeroFill(now.getHours()) + ':' + "00";
+        const dataHora = zeroFill(now.getDate()) + '/' + zeroFill((now.getMonth() + 1)) + '/' + now.getFullYear() + ' ' + zeroFill(now.getHours()) + ':' + "00";
 
         const min = now.getMinutes();
 
